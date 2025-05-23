@@ -1,6 +1,8 @@
 # Fine-Tuning BERT for Classification Task
 This project is my journal where I documented my journey to find the best performing BERT model through thoughtful data preprocessing and fine-tuning.
+
 For preprocessing, I applied combination of text cleaning, stopword removal, and lemmatization (I tried all the combination!). The fine-tuning process involved several key steps: choosing a pre-trained model that's tailored to specific domains, tuning hyperparameters, and experimenting with different features and classifiers to find the best setup.
+
 The tasks I was working on include sentiment analysis [(SST-2)](https://huggingface.co/datasets/stanfordnlp/sst2), topic classification ([AG News](https://huggingface.co/datasets/fancyzhx/ag_news)), and spam detection ([Enron Spam](https://huggingface.co/datasets/SetFit/enron_spam)) using datasets from Hugging Face.
 
 ---
